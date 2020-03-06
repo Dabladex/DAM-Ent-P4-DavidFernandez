@@ -40,4 +40,9 @@ public class NumeroTest {
 	public void compruebaMultiplicacion() {
 		assertEquals(72, numero.calcularMultiplicacion());
 	}
+	
+	@Test
+	public void compruebaDivision() {
+		assertEquals(2, numero.calcularDivision());
+	}
 }
