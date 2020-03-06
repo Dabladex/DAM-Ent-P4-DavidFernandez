@@ -65,4 +65,13 @@ public class Numero {
 		
 		return resultado;
 	}
+	
+	public int calcularPotencia() {
+		
+		return (int)Math.pow(numero1, numero2);	
+	}
+	
+	public boolean calcularMultiplo() {
+		return numero1%numero2 == 0;
+	}
 }
