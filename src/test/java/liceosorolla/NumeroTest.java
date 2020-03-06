@@ -17,12 +17,17 @@ public class NumeroTest {
 	}
 	
 	@Test
-	public void comprobaRectangulo1() {
+	public void compruebaRectangulo1() {
 		assertEquals(12, numero.getNumero1());
 	}
 	
 	@Test
-	public void comprobaRectangulo2() {
+	public void compruebaRectangulo2() {
 		assertEquals(6, numero.getNumero2());
+	}
+	
+	@Test
+	public void compruebaSuma() {
+		assertEquals(18, numero.calcularSuma());
 	}
 }
