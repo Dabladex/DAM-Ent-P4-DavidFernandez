@@ -30,4 +30,12 @@ public class Numero {
 		this.numero2 = numero2;
 	}
 	
+	public int calcularSuma() {
+		
+		int resultado;
+		
+		resultado= this.numero1+this.numero2;
+		
+		return resultado;
+	}
 }
