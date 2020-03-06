@@ -47,4 +47,13 @@ public class Numero {
 		
 		return resultado;
 	}
+	
+	public int calcularMultiplicacion() {
+		
+		int resultado;
+		
+		resultado= this.numero1*this.numero2;
+		
+		return resultado;
+	}
 }
