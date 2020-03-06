@@ -35,4 +35,9 @@ public class NumeroTest {
 	public void compruebaResta() {
 		assertEquals(6, numero.calcularResta());
 	}
+	
+	@Test
+	public void compruebaMultiplicacion() {
+		assertEquals(72, numero.calcularMultiplicacion());
+	}
 }
