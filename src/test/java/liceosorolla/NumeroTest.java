@@ -30,4 +30,9 @@ public class NumeroTest {
 	public void compruebaSuma() {
 		assertEquals(18, numero.calcularSuma());
 	}
+	
+	@Test
+	public void compruebaResta() {
+		assertEquals(6, numero.calcularResta());
+	}
 }
