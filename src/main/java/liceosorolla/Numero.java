@@ -3,7 +3,6 @@ package main.java.liceosorolla;
 public class Numero {
 
 	private int numero1;
-
 	private int numero2;
 
 	public Numero(int numero1, int numero2) {
@@ -30,4 +29,5 @@ public class Numero {
 	public void setNumero2(int numero2) {
 		this.numero2 = numero2;
 	}
+	
 }
