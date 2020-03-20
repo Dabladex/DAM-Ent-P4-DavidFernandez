@@ -62,6 +62,20 @@ public class UsuarioTest {
 		assertEquals("david",usuario.getNombre());
 	}
 	
+	@Test
+	public void comprobarTodoMayus() {
+		
+		assertEquals("DAVID FERNANDEZ", usuario.imprimirMayus());
+		
+	}
+	
+	@Test
+	public void comprobarTodoMinus() {
+		
+		assertEquals("david fernandez", usuario.imprimirMinus());
+		
+	}
+	
 	
 
 

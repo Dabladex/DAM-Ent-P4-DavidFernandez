@@ -70,6 +70,21 @@ public class Usuario {
 	
 	}
 	
+	public String imprimirMayus() {
+		String salida;
+		
+		salida = (this.nombre +" "+ this.apellidos).toUpperCase();
+		
+		return salida;
+	}
+	
+	public String imprimirMinus() {
+		String salida;
+		
+		salida = (this.nombre +" "+ this.apellidos).toLowerCase();
+		
+		return salida;
+	}
 	
 
 }
