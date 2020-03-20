@@ -1,7 +1,9 @@
-package test.java.liceosorolla;
+package src.test.java.liceosorolla;
+import static org.junit.Assert.assertEquals;
+
 import org.junit.Before;
 import org.junit.Test;
-import main.java.liceosorolla.Usuario;
+import src.main.java.liceosorolla.Usuario;
 import static org.junit.Assert.assertEquals;
 
 import java.time.LocalDate;
