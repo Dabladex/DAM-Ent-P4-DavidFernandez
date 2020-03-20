@@ -1,11 +1,9 @@
 package src.test.java.liceosorolla;
-import static org.junit.Assert.assertEquals;
 
+import static org.junit.Assert.assertEquals;
 import org.junit.Before;
 import org.junit.Test;
 import src.main.java.liceosorolla.Usuario;
-import static org.junit.Assert.assertEquals;
-
 import java.time.LocalDate;
 
 public class UsuarioTest {
